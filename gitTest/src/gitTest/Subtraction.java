@@ -7,8 +7,8 @@ public class Subtraction {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int sum=  subNumber(80,10);
-		System.out.println(sum);
+		int sub=  subNumber(80,10);
+		System.out.println(sub);
 	}
 
 }
