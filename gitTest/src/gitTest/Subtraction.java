@@ -25,6 +25,27 @@ public class Subtraction {
 		System.out.println(square);
 	
 	}
+
+	public void findMin(){
+
+		int [] arr= {23,56,24,20,45,90,12,100};
+		
+		int min= arr[0];
+		for(int i=0; i<arr.length; i++) {
+			
+			int num=arr[i];
+			if(num<min) {
+				
+				min=num;
+			}
+			
+		}
+	 System.out.println(min);
+		
+		
+	}
+		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int sub=  subNumber(80,10);
@@ -35,8 +56,9 @@ public class Subtraction {
 		s.addNumber();
 		s.mulNumber();
                 s.squareNumber();
-		 int[] arr = new int[5];
+		s.findMin();
 		
+		int[] arr = new int[5];
 		arr[0]=101;
 		arr[1]=102;
 		arr[2]=103;
