@@ -34,7 +34,7 @@ public class Subtraction {
 		Subtraction s= new Subtraction();
 		s.addNumber();
 		s.mulNumber();
-
+                s.squareNumber();
 		 int[] arr = new int[5];
 		
 		arr[0]=101;
