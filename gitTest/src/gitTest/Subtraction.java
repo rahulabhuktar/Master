@@ -18,6 +18,13 @@ public class Subtraction {
 		int y=3;
 		System.out.println(i*y);
 	}
+	public void squareNumber()
+	{
+	int num=5;
+		int square=num*num;
+		System.out.println(square);
+	
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int sub=  subNumber(80,10);
@@ -40,7 +47,7 @@ public class Subtraction {
 			
 			System.out.println(arr[i]);
 		}
-	   
+	       
 	}
 
 }
