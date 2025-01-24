@@ -12,6 +12,24 @@ public class Subtraction {
 		float y=30.5f;
 		System.out.println(i+y);
 	}
+
+	public void sortingArray(){
+
+		
+		 int[] arr = new int[5];
+		
+		arr[0]=101;
+		arr[1]=102;
+		arr[2]=103;
+		arr[3]=104;
+		arr[4]=105;
+
+		for(int i =0; i<5; i++) {
+			
+			System.out.println(arr[i]);
+		}
+		
+	}
 	public void mulNumber()
 	{
 		int i= 50;
@@ -27,19 +45,8 @@ public class Subtraction {
 		Subtraction s= new Subtraction();
 		s.addNumber();
 		s.mulNumber();
+		s.sortingArray();
 
-		 int[] arr = new int[5];
-		
-		arr[0]=101;
-		arr[1]=102;
-		arr[2]=103;
-		arr[3]=104;
-		arr[4]=105;
-
-		for(int i =0; i<5; i++) {
-			
-			System.out.println(arr[i]);
-		}
 	   
 	}
 
