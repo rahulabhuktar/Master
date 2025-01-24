@@ -26,6 +26,7 @@ public class Subtraction {
 
 		Subtraction s= new Subtraction();
 		s.addNumber();
+		s.mulNumber();
 		
 	
 	}
