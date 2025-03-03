@@ -10,19 +10,19 @@ public class Subtraction {
 	{
 		int i= 50;
 		float y=30.5f;
-		System.out.println(i+y);
+		System.out.println("Addtion is "+i+y);
 	}
 	public void mulNumber()
 	{
 		int i= 50;
 		int y=3;
-		System.out.println(i*y);
+		System.out.println("Multiplication is "+i*y);
 	}
 	public void squareNumber()
 	{
 	int num=5;
 		int square=num*num;
-		System.out.println(square);
+		System.out.println("Square is "+square);
 	
 	}
 
@@ -40,7 +40,7 @@ public class Subtraction {
 			}
 			
 		}
-	 System.out.println(min);
+	 System.out.println("Array min no:- "+min);
 		
 		
 	}
@@ -50,7 +50,7 @@ public class Subtraction {
 		// TODO Auto-generated method stub
 		int sub=  subNumber(80,10);
 		
-		System.out.println(sub);
+		System.out.println("Sub "+sub);
 
 		Subtraction s= new Subtraction();
 		s.addNumber();
